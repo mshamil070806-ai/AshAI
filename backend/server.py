@@ -81,22 +81,25 @@ def create_app(config) -> FastAPI:
   <header>
     <h1>⚡ AshAI Engine</h1>
     <div class="status-bar">
-      <span class="badge">🧠 49,500+ HF Records</span>
-      <span class="badge">🌐 Live APIs Active</span>
+      <span class="badge">🧠 51,900+ Records</span>
+      <span class="badge">🌐 2,400+ Public APIs</span>
       <span class="status">● Online</span>
     </div>
   </header>
   <div id="chat-box">
     <div class="msg-wrap bot">
-      <div class="tool-tag">⚡ System Initialized</div>
-      <div class="msg">Hello! I am AshAI. I am connected with live weather APIs, Wikipedia, coding datasets, and over 49,500 AI records from Hugging Face. Ask me anything!</div>
+      <div class="tool-tag">⚡ AshAI Core Online</div>
+      <div class="msg">Hello! I am AshAI. I am equipped with live Weather, Binance Crypto, Global Currency Exchange Rates, Wikipedia, 2,400+ Free Public APIs, and 51,900+ AI records from Hugging Face. Ask me anything!</div>
     </div>
   </div>
   <div class="quick-actions">
+    <div class="chip" onclick="quickSend('Live crypto prices')">🪙 Bitcoin & Crypto Price</div>
+    <div class="chip" onclick="quickSend('Current dollar to rupee exchange rate')">💵 Dollar to Rupee Rate</div>
     <div class="chip" onclick="quickSend('Weather in Kochi')">🌦️ Weather in Kochi</div>
-    <div class="chip" onclick="quickSend('What is Quantum Computing?')">📚 What is Quantum Computing?</div>
-    <div class="chip" onclick="quickSend('Write a python function to reverse a string')">💻 Python string reverse</div>
-    <div class="chip" onclick="quickSend('Who is Alan Turing?')">👤 Who is Alan Turing?</div>
+    <div class="chip" onclick="quickSend('Find free APIs for weather')">🌐 Find Weather APIs</div>
+    <div class="chip" onclick="quickSend('Give me some advice')">💡 Daily Thought</div>
+    <div class="chip" onclick="quickSend('What is Artificial Intelligence?')">📚 What is AI?</div>
+    <div class="chip" onclick="quickSend('Write a python function to reverse a string')">💻 Python Code</div>
   </div>
   <div class="footer">
     <input type="text" id="userInput" placeholder="Ask a question, query science, weather, or coding..." onkeydown="if(event.key==='Enter') sendMsg()" />
