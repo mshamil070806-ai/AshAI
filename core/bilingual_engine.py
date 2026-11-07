@@ -55,3 +55,4 @@ def format_bilingual_response(lang: str, english_text: str, ml_summary: str | No
         return f"Itha ningal chodhicha details:\n\n{english_text}"
 
     return english_text
+
