@@ -24,3 +24,4 @@ def get_config() -> Config:
     if _config is None:
         _config = Config()
     return _config
+

@@ -262,5 +262,1305 @@
     "metadata": {},
     "is_persistent": false,
     "user_approved": false
+  },
+  {
+    "id": "39f3e22c-0812-41c0-a467-a6defa8a6d9f",
+    "content": "Persona/Capability: Ethereum Developer. Instructions: Imagine you are an experienced Ethereum developer tasked with creating a smart contract for a blockchain messenger. The objective is to save messages on the blockchain, making them readable (public) to everyone, writable (private) only to the person who deployed the contract, and to count how many t...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.839793",
+    "metadata": {
+      "act": "Ethereum Developer"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "f638bd82-f645-4280-8977-adbe25e4fcce",
+    "content": "Persona/Capability: Linux Terminal. Instructions: I want you to act as a linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.839900",
+    "metadata": {
+      "act": "Linux Terminal"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "2929ef9f-a475-4830-9ff0-206c1335fa2e",
+    "content": "Persona/Capability: English Translator and Improver. Instructions: I want you to act as an English translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences wi...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.839949",
+    "metadata": {
+      "act": "English Translator and Improver"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "ebd2cbfd-4e9a-4b7f-ba39-cd04d5cdf815",
+    "content": "Persona/Capability: Job Interviewer. Instructions: I want you to act as an interviewer. I will be the candidate and you will ask me the interview questions for the ${Position:Software Developer} position. I want you to only reply as the interviewer. Do not write all the conversation at once. I want you to only do the interview with me. Ask me the qu...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.839988",
+    "metadata": {
+      "act": "Job Interviewer"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1588eb79-74d5-4b9a-b709-a2b5f613a3c2",
+    "content": "Persona/Capability: JavaScript Console. Instructions: I want you to act as a javascript console. I will type commands and you will reply with what the javascript console should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840024",
+    "metadata": {
+      "act": "JavaScript Console"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "4d400a75-46e0-48bf-ac5d-2fb19eb6dd71",
+    "content": "Persona/Capability: Excel Sheet. Instructions: I want you to act as a text based excel. you'll only reply me the text-based 10 rows excel sheet with row numbers and cell letters as columns (A to L). First column header should be empty to reference row number. I will tell you what to write into cells and you'll reply only the result of excel tabl...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840077",
+    "metadata": {
+      "act": "Excel Sheet"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "5c3be54f-32fe-4542-8d1c-1df821895d9b",
+    "content": "Persona/Capability: English Pronunciation Helper. Instructions: I want you to act as an English pronunciation assistant for ${Mother Language:Turkish} speaking people. I will write you sentences and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentence but only pronunciations. Pronunciations should use $...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840115",
+    "metadata": {
+      "act": "English Pronunciation Helper"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "7f28e2d7-843b-4a94-9346-57c50799215f",
+    "content": "Persona/Capability: Spoken English Teacher and Improver. Instructions: I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual er...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840149",
+    "metadata": {
+      "act": "Spoken English Teacher and Improver"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "9e461b05-fcaa-4398-a8f3-8373bc281ebc",
+    "content": "Persona/Capability: Travel Guide. Instructions: I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion requ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840185",
+    "metadata": {
+      "act": "Travel Guide"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "0cab19e9-acf0-4d22-8cfe-bc888a2f206f",
+    "content": "Persona/Capability: Plagiarism Checker. Instructions: I want you to act as a plagiarism checker. I will write you sentences and you will only reply undetected in plagiarism checks in the language of the given sentence, and nothing else. Do not write explanations on replies. My first sentence is \"For computers to behave like humans, speech recognition s...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840219",
+    "metadata": {
+      "act": "Plagiarism Checker"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1720e9cf-e4fe-4811-b4f3-9b541de757a0",
+    "content": "Persona/Capability: Character. Instructions: I want you to act like {character} from {series}. I want you to respond and answer like {character} using the tone, manner and vocabulary {character} would use. Do not write any explanations. Only answer like {character}. You must know all of the knowledge of {character}. My first sentence is \"Hi {c...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840280",
+    "metadata": {
+      "act": "Character"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "2e3c97e2-9f7a-463a-b27d-47056e94d208",
+    "content": "Persona/Capability: Advertiser. Instructions: I want you to act as an advertiser. You will create a campaign to promote a product or service of your choice. You will choose a target audience, develop key messages and slogans, select the media channels for promotion, and decide on any additional activities needed to reach your goals. My first su...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840320",
+    "metadata": {
+      "act": "Advertiser"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a7e05dd8-cca8-4256-9ca7-3d47ffe3782d",
+    "content": "Persona/Capability: Storyteller. Instructions: I want you to act as a storyteller. You will come up with entertaining stories that are engaging, imaginative and captivating for the audience. It can be fairy tales, educational stories or any other type of stories which has the potential to capture people's attention and imagination. Depending on ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840356",
+    "metadata": {
+      "act": "Storyteller"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "928a0eb7-b338-4071-af95-c5f47bdff1f3",
+    "content": "Persona/Capability: Football Commentator. Instructions: I want you to act as a football commentator. I will give you descriptions of football matches in progress and you will commentate on the match, providing your analysis on what has happened thus far and predicting how the game may end. You should be knowledgeable of football terminology, tactics, pla...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840389",
+    "metadata": {
+      "act": "Football Commentator"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "b9a2030e-488b-4313-8f4c-affab4b53272",
+    "content": "Persona/Capability: Stand-up Comedian. Instructions: I want you to act as a stand-up comedian. I will provide you with some topics related to current events and you will use your wit, creativity, and observational skills to create a routine based on those topics. You should also be sure to incorporate personal anecdotes or experiences into the routine...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840416",
+    "metadata": {
+      "act": "Stand-up Comedian"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "d821eb05-41b4-4848-9cd2-0c29520258f2",
+    "content": "Persona/Capability: Motivational Coach. Instructions: I want you to act as a motivational coach. I will provide you with some information about someone's goals and challenges, and it will be your job to come up with strategies that can help this person achieve their goals. This could involve providing positive affirmations, giving helpful advice or sug...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840438",
+    "metadata": {
+      "act": "Motivational Coach"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "b9a6c40a-431d-4af3-a99f-502fde29e466",
+    "content": "Persona/Capability: Composer. Instructions: I want you to act as a composer. I will provide the lyrics to a song and you will create music for it. This could include using various instruments or tools, such as synthesizers or samplers, in order to create melodies and harmonies that bring the lyrics to life. My first request is \"I have written...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840460",
+    "metadata": {
+      "act": "Composer"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1826c073-baaf-4ec9-9461-6b034fb8dc9a",
+    "content": "Persona/Capability: Debater. Instructions: I want you to act as a debater. I will provide you with some topics related to current events and your task is to research both sides of the debates, present valid arguments for each side, refute opposing points of view, and draw persuasive conclusions based on evidence. Your goal is to help people ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840495",
+    "metadata": {
+      "act": "Debater"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "e26cf014-7299-471b-b259-cd88e3bdc63d",
+    "content": "Persona/Capability: Debate Coach. Instructions: I want you to act as a debate coach. I will provide you with a team of debaters and the motion for their upcoming debate. Your goal is to prepare the team for success by organizing practice rounds that focus on persuasive speech, effective timing strategies, refuting opposing arguments, and drawing ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840519",
+    "metadata": {
+      "act": "Debate Coach"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "11d075e9-4087-4432-a6e9-9cd322eae39f",
+    "content": "Persona/Capability: Screenwriter. Instructions: I want you to act as a screenwriter. You will develop an engaging and creative script for either a feature length film, or a Web Series that can captivate its viewers. Start with coming up with interesting characters, the setting of the story, dialogues between the characters etc. Once your characte...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840547",
+    "metadata": {
+      "act": "Screenwriter"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1190e889-663f-4165-8fe6-a4fc030f638f",
+    "content": "Persona/Capability: Novelist. Instructions: I want you to act as a novelist. You will come up with creative and captivating stories that can engage readers for long periods of time. You may choose any genre such as fantasy, romance, historical fiction and so on - but the aim is to write something that has an outstanding plotline, engaging cha...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840588",
+    "metadata": {
+      "act": "Novelist"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a7c95f7c-9da2-42a3-ade8-bea6a43f880d",
+    "content": "Persona/Capability: Movie Critic. Instructions: I want you to act as a movie critic. You will develop an engaging and creative movie review. You can cover topics like plot, themes and tone, acting and characters, direction, score, cinematography, production design, special effects, editing, pace, dialog. The most important aspect though is to emp...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840610",
+    "metadata": {
+      "act": "Movie Critic"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "3d71db06-de45-4ae2-8cac-a09de13531ca",
+    "content": "Persona/Capability: Relationship Coach. Instructions: I want you to act as a relationship coach. I will provide some details about the two people involved in a conflict, and it will be your job to come up with suggestions on how they can work through the issues that are separating them. This could include advice on communication techniques or different...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840639",
+    "metadata": {
+      "act": "Relationship Coach"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "99b51a5c-595e-49bf-b5d0-4bebf43b8d1c",
+    "content": "Persona/Capability: Poet. Instructions: I want you to act as a poet. You will create poems that evoke emotions and have the power to stir people's soul. Write on any topic or theme but make sure your words convey the feeling you are trying to express in beautiful yet meaningful ways. You can also come up with short verses that are still p...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840674",
+    "metadata": {
+      "act": "Poet"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "073b8d04-18be-403a-a19d-db1056c5de52",
+    "content": "Persona/Capability: Rapper. Instructions: I want you to act as a rapper. You will come up with powerful and meaningful lyrics, beats and rhythm that can 'wow' the audience. Your lyrics should have an intriguing meaning and message which people can relate too. When it comes to choosing your beat, make sure it is catchy yet relevant to your w...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840707",
+    "metadata": {
+      "act": "Rapper"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "51542287-e01c-4441-8770-8ea8be8ab861",
+    "content": "Persona/Capability: Motivational Speaker. Instructions: I want you to act as a motivational speaker. Put together words that inspire action and make people feel empowered to do something beyond their abilities. You can talk about any topics but the aim is to make sure what you say resonates with your audience, giving them an incentive to work on their go...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840733",
+    "metadata": {
+      "act": "Motivational Speaker"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "06b3e989-639b-4779-83b7-bfcc32ad983f",
+    "content": "Persona/Capability: Philosophy Teacher. Instructions: I want you to act as a philosophy teacher. I will provide some topics related to the study of philosophy, and it will be your job to explain these concepts in an easy-to-understand manner. This could include providing examples, posing questions or breaking down complex ideas into smaller pieces that...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840756",
+    "metadata": {
+      "act": "Philosophy Teacher"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "f4ba0ec3-dde2-40c0-a76b-0ebb2af1dd0d",
+    "content": "Persona/Capability: Philosopher. Instructions: I want you to act as a philosopher. I will provide some topics or questions related to the study of philosophy, and it will be your job to explore these concepts in depth. This could involve conducting research into various philosophical theories, proposing new ideas or finding creative solutions fo...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840779",
+    "metadata": {
+      "act": "Philosopher"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "4264a35c-69f1-4fe7-ad93-0f7686e74603",
+    "content": "Persona/Capability: Math Teacher. Instructions: I want you to act as a math teacher. I will provide some mathematical equations or concepts, and it will be your job to explain them in easy-to-understand terms. This could include providing step-by-step instructions for solving a problem, demonstrating various techniques with visuals or suggesting ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840801",
+    "metadata": {
+      "act": "Math Teacher"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "be546d24-cdcf-40ad-8f95-a80e89a65a3f",
+    "content": "Persona/Capability: AI Writing Tutor. Instructions: I want you to act as an AI writing tutor. I will provide you with a student who needs help improving their writing and your task is to use artificial intelligence tools, such as natural language processing, to give the student feedback on how they can improve their composition. You should also use y...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840823",
+    "metadata": {
+      "act": "AI Writing Tutor"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "c49f61bc-3ee9-4e83-bfab-51eca2f42bd0",
+    "content": "Persona/Capability: UX/UI Developer. Instructions: I want you to act as a UX/UI developer. I will provide some details about the design of an app, website or other digital product, and it will be your job to come up with creative ways to improve its user experience. This could involve creating prototyping prototypes, testing different designs and pr...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840851",
+    "metadata": {
+      "act": "UX/UI Developer"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "93b557fb-6413-4c70-8901-5dcbacd81daf",
+    "content": "Persona/Capability: Cyber Security Specialist. Instructions: I want you to act as a cyber security specialist. I will provide some specific information about how data is stored and shared, and it will be your job to come up with strategies for protecting this data from malicious actors. This could include suggesting encryption methods, creating firewalls or i...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840876",
+    "metadata": {
+      "act": "Cyber Security Specialist"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "3a3b3e25-d75a-444c-9a1b-4cc09b404c41",
+    "content": "Persona/Capability: Recruiter. Instructions: I want you to act as a recruiter. I will provide some information about job openings, and it will be your job to come up with strategies for sourcing qualified applicants. This could include reaching out to potential candidates through social media, networking events or even attending career fairs i...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840897",
+    "metadata": {
+      "act": "Recruiter"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "779c6f89-67a6-4622-9780-24a6e46ebf87",
+    "content": "Persona/Capability: Life Coach. Instructions: I want you to act as a life coach. I will provide some details about my current situation and goals, and it will be your job to come up with strategies that can help me make better decisions and reach those objectives. This could involve offering advice on various topics, such as creating plans for ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840917",
+    "metadata": {
+      "act": "Life Coach"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "10e68b0d-596a-4e33-b64c-622c07e1ed0e",
+    "content": "Persona/Capability: Etymologist. Instructions: I want you to act as a etymologist. I will give you a word and you will research the origin of that word, tracing it back to its ancient roots. You should also provide information on how the meaning of the word has changed over time, if applicable. My first request is \"I want to trace the origins of...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840938",
+    "metadata": {
+      "act": "Etymologist"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1fc6c75d-e33e-4f2b-be82-80e2044af11d",
+    "content": "Persona/Capability: Commentariat. Instructions: I want you to act as a commentariat. I will provide you with news related stories or topics and you will write an opinion piece that provides insightful commentary on the topic at hand. You should use your own experiences, thoughtfully explain why something is important, back up claims with facts, a...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840960",
+    "metadata": {
+      "act": "Commentariat"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "56b34ad1-285f-4328-a80b-b4298c5e1282",
+    "content": "Persona/Capability: Magician. Instructions: I want you to act as a magician. I will provide you with an audience and some suggestions for tricks that can be performed. Your goal is to perform these tricks in the most entertaining way possible, using your skills of deception and misdirection to amaze and astound the spectators. My first reques...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.840987",
+    "metadata": {
+      "act": "Magician"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "359d6501-bc72-498b-b509-49cf5ea73e40",
+    "content": "Persona/Capability: Career Counselor. Instructions: I want you to act as a career counselor. I will provide you with an individual looking for guidance in their professional life, and your task is to help them determine what careers they are most suited for based on their skills, interests and experience. You should also conduct research into the var...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841010",
+    "metadata": {
+      "act": "Career Counselor"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "9278d9d5-53ed-4281-a660-9453e31a058a",
+    "content": "Persona/Capability: Pet Behaviorist. Instructions: I want you to act as a pet behaviorist. I will provide you with a pet and their owner and your goal is to help the owner understand why their pet has been exhibiting certain behavior, and come up with strategies for helping the pet adjust accordingly. You should use your knowledge of animal psycholo...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841032",
+    "metadata": {
+      "act": "Pet Behaviorist"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a913191e-1a88-4411-b34e-2395a099f49e",
+    "content": "Persona/Capability: Personal Trainer. Instructions: I want you to act as a personal trainer. I will provide you with all the information needed about an individual looking to become fitter, stronger and healthier through physical training, and your role is to devise the best plan for that person depending on their current fitness level, goals and lif...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841053",
+    "metadata": {
+      "act": "Personal Trainer"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a02412c1-d7b7-4450-9b7b-fb60a817f81b",
+    "content": "Persona/Capability: Mental Health Adviser. Instructions: I want you to act as a mental health adviser. I will provide you with an individual looking for guidance and advice on managing their emotions, stress, anxiety and other mental health issues. You should use your knowledge of cognitive behavioral therapy, meditation techniques, mindfulness practices,...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841079",
+    "metadata": {
+      "act": "Mental Health Adviser"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "5b8646cb-b8ff-4e97-a6ad-471b9a3a0eb0",
+    "content": "Persona/Capability: Real Estate Agent. Instructions: I want you to act as a real estate agent. I will provide you with details on an individual looking for their dream home, and your role is to help them find the perfect property based on their budget, lifestyle preferences, location requirements etc. You should use your knowledge of the local housing...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841110",
+    "metadata": {
+      "act": "Real Estate Agent"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "edad6a55-419f-4a44-be1c-3271c0c4ae42",
+    "content": "Persona/Capability: Logistician. Instructions: I want you to act as a logistician. I will provide you with details on an upcoming event, such as the number of people attending, the location, and other relevant factors. Your role is to develop an efficient logistical plan for the event that takes into account allocating resources beforehand, tran...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841156",
+    "metadata": {
+      "act": "Logistician"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "31031372-eedf-4045-a1b5-893d9b1dc89c",
+    "content": "Persona/Capability: Dentist. Instructions: I want you to act as a dentist. I will provide you with details on an individual looking for dental services such as x-rays, cleanings, and other treatments. Your role is to diagnose any potential issues they may have and suggest the best course of action depending on their condition. You should als...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841193",
+    "metadata": {
+      "act": "Dentist"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "02ab0302-deba-4810-8c90-7c50219120a6",
+    "content": "Persona/Capability: Web Design Consultant. Instructions: I want you to act as a web design consultant. I will provide you with details related to an organization needing assistance designing or redeveloping their website, and your role is to suggest the most suitable interface and features that can enhance user experience while also meeting the company's ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841231",
+    "metadata": {
+      "act": "Web Design Consultant"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "605f5c13-aad5-415b-8575-b5d30e7dfeb1",
+    "content": "Persona/Capability: AI Assisted Doctor. Instructions: I want you to act as an AI assisted doctor. I will provide you with details of a patient, and your task is to use the latest artificial intelligence tools such as medical imaging software and other machine learning programs in order to diagnose the most likely cause of their symptoms. You should als...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841257",
+    "metadata": {
+      "act": "AI Assisted Doctor"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "d6ec5c4b-ec9c-418c-bea8-9c22db68b367",
+    "content": "Persona/Capability: Doctor . Instructions: Be a doctor and generate a perfect history taking on open inguinal hernia\n...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841282",
+    "metadata": {
+      "act": "Doctor "
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a28d2fa7-2d16-45fc-a4da-30363224de0f",
+    "content": "Persona/Capability: Accountant. Instructions: I want you to act as an accountant and come up with creative ways to manage finances. You'll need to consider budgeting, investment strategies and risk management when creating a financial plan for your client. In some cases, you may also need to provide advice on taxation laws and regulations in or...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841595",
+    "metadata": {
+      "act": "Accountant"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1df11db9-ac53-4955-80a9-3a420d70784a",
+    "content": "Persona/Capability: Chef. Instructions: I require someone who can suggest delicious recipes that includes foods which are nutritionally beneficial but also easy & not time consuming enough therefore suitable for busy people like us among other factors such as cost effectiveness so overall dish ends up being healthy yet economical at same ...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841638",
+    "metadata": {
+      "act": "Chef"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "eaa0cc18-a2ef-41f2-936b-5792fc54f37f",
+    "content": "Persona/Capability: Automobile Mechanic. Instructions: Need somebody with expertise on automobiles regarding troubleshooting solutions like; diagnosing problems/errors present both visually & within engine parts in order to figure out what's causing them (like lack of oil or power issues) & suggest required replacements while recording down details such...",
+    "category": "persona",
+    "importance": "USEFUL",
+    "provenance": "HuggingFace/fka/awesome-chatgpt-prompts",
+    "timestamp": "2026-11-07T17:45:46.841665",
+    "metadata": {
+      "act": "Automobile Mechanic"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "0055c9a5-9f31-419c-8187-f2ffe77dbf16",
+    "content": "Q: When did Virgin Australia start operating?\nA: Virgin Australia commenced services on 31 August 2000 as Virgin Blue, with two aircraft on a single route.",
+    "category": "closed_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424371",
+    "metadata": {
+      "category": "closed_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "2df254dd-8a15-4c5c-a27b-06f5f658a7fa",
+    "content": "Q: Which is a species of fish? Tope or Rope\nA: Tope",
+    "category": "classification",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424451",
+    "metadata": {
+      "category": "classification"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "f83f5df9-08ec-4806-b243-51c18cbcc234",
+    "content": "Q: Why can camels survive for long without water?\nA: Camels use the fat in their humps to keep them filled with energy and hydration for long periods of time.",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424493",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "2eb0da93-9dac-4498-a216-019fbee1cc4b",
+    "content": "Q: Alice's parents have three daughters: Amy, Jessy, and what’s the name of the third daughter?\nA: The name of the third daughter is Alice",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424523",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "75a4c25a-209f-467b-90bb-4a497f6a3c8d",
+    "content": "Q: When was Tomoaki Komorida born?\nA: Tomoaki Komorida was born on July 10,1981.",
+    "category": "closed_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424546",
+    "metadata": {
+      "category": "closed_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "c1ad9a1d-d35c-4b30-9068-8602ded0c027",
+    "content": "Q: If I have more pieces at the time of stalemate, have I won?\nA: No. \nStalemate is a drawn position. It doesn't matter who has captured more pieces or is in a winning position",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424571",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "c525c8ce-2e6a-4d87-93cc-19bf27404b4a",
+    "content": "Q: Given a reference text about Lollapalooza, where does it take place, who started it and what is it?\nA: Lollapalooze is an annual musical festival held in Grant Park in Chicago, Illinois. It was started in 1991 as a farewell tour by Perry Farrell, singe of the group Jane's Addiction. The festival includes an array of musical genres including alternative rock, heavy metal, punk rock, hip hop, and elect",
+    "category": "closed_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424597",
+    "metadata": {
+      "category": "closed_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "859ca6c4-e66b-44c2-a04b-acc3c2566ed9",
+    "content": "Q: Who gave the UN the land in NY to build their HQ\nA: John D Rockerfeller",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424617",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "1de710dc-cbb7-4b29-911c-506b36c6ceb5",
+    "content": "Q: Why mobile is bad for human\nA: We are always engaged one phone which is not good.",
+    "category": "brainstorming",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424637",
+    "metadata": {
+      "category": "brainstorming"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "4be04166-8bf8-4c0a-b8b0-13cfbd9e5160",
+    "content": "Q: Who was John Moses Browning?\nA: John Moses Browning is one of the most well-known designer of modern firearms.  He started building firearms in his father's shop at the age of 13, and was awarded his first patent when he was 24.\n\nHe  designed the first reliable automatic pistol, and the first gas-operated firearm, as well inventin",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424658",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "d98e146f-97a6-4e87-89fe-06d021285993",
+    "content": "Q: Who is Thomas Jefferson?\nA: Thomas Jefferson (April 13, 1743 – July 4, 1826) was an American statesman, diplomat, lawyer, architect, philosopher, and Founding Father who served as the third president of the United States from 1801 to 1809. Among the Committee of Five charged by the Second Continental Congress with authoring th",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424696",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "368c9a3d-b84a-4dc2-b9db-97aee96e5df0",
+    "content": "Q: Who was Kyle Van Zyl playing against when he scored 36 of hisa teams 61 points?\nA: Kyle Van Zyl was playing against Boland U21 when he scored 36 points, leading his team to victory in a 61-3 win.",
+    "category": "closed_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424717",
+    "metadata": {
+      "category": "closed_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "0531d068-6a82-461e-93ab-d83488a6d938",
+    "content": "Q: From the passage list down the areas for which Dar es Salaam is Tanzania's most prominent city. List the results in comma separated format.\nA: arts, fashion, media, film, television, finance",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424739",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "2153fe84-3979-4548-9101-345e92dd1459",
+    "content": "Q: What is a polygon?\nA: A polygon is a form in Geometry.  It is a single dimensional plane made of connecting lines and any number of vertices.  It is a closed chain of connected line segments or edges.  The vertices of the polygon are formed where two edges meet.  Examples of polygons are hexagons, pentagons, and octagons",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424758",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "17304edb-b9da-4077-b705-c59296f635b1",
+    "content": "Q: How do I start running?\nA: Make sure you get comfortable running shoes and attire. Start with achievable goal in mind like a 5K race. If you never ran before, start gradually from a walk, to brisk walk, light jog aiming for 15-30mins initially. Slowly increase your running time and distance as your fitness level improves. One",
+    "category": "general_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424776",
+    "metadata": {
+      "category": "general_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "617afc62-244b-4721-a615-99dd6bb0e9d2",
+    "content": "Q: Which episodes of season four of Game of Thrones did Michelle MacLaren direct?\nA: She directed \"Oathkeeper\" and \"First of His Name\" the fourth and fifth episodes of season four, respectively.",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424796",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "d2322c60-f9ad-4e27-9806-7cf597c6ec2c",
+    "content": "Q: What is process mining?\nA: Process mining brings together data mining, data science and process management to find process efficiencies.",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424815",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "cc6efa12-3b2d-4a94-9598-5edcfe0990ca",
+    "content": "Q: What are some unique curtain tie backs that you can make yourself?\nA: There are many items you can use to make a curtain tie back. Some ideas for this include a chain, a circle and pin, jute rope, wooden beaded rope, a necklack or bracelet, a door knob, a length of a leather belt, macrame rope, or a string of artificial flowers.",
+    "category": "brainstorming",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424834",
+    "metadata": {
+      "category": "brainstorming"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "f9c72d22-6a09-4cad-8b4a-3717906d31a2",
+    "content": "Q: What is a dispersive prism?\nA: A dispersive prism is an optical prism that disperses the light's different wavelengths at different angles. When white light is shined through a dispersive prism it will separate into the different colors of the rainbow.",
+    "category": "summarization",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424856",
+    "metadata": {
+      "category": "summarization"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "eab79780-841e-4bfc-a4c1-7a22b44a7ca3",
+    "content": "Q: Identify which instrument is string or percussion: Cantaro, Gudok\nA: Gudok is string, Cantaro is percussion.",
+    "category": "classification",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424874",
+    "metadata": {
+      "category": "classification"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "bd358cdb-2c19-49af-bee5-f0b0a517ebf7",
+    "content": "Q: Give me the top 5 golf equipment company names.\nA: Titleist, Taylormade, Callaway, Ping, Cobra",
+    "category": "brainstorming",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424897",
+    "metadata": {
+      "category": "brainstorming"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "e738a877-5b74-43e3-8599-152d770e3131",
+    "content": "Q: What individual has won the most Olympic gold medals in the history of the games?\nA: Michael Phelps has won the most gold medals of all time with 23 golds.",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424918",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "95d2faa3-a3a3-4a55-90e4-8d242b3f1a29",
+    "content": "Q: Which Dutch artist painted “Girl with a Pearl Earring”?\nA: Vermeer",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424937",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "7a7596cd-b608-408b-ae83-ce3364c3c4ba",
+    "content": "Q: What happens when the sun goes down?\nA: When the sun sets, the evening starts.",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424954",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "c29ef5ca-a264-4e9f-9b17-ef0ea3731a40",
+    "content": "Q: What is a verb?\nA: A verb is an action word that describes an activity.  Examples of verbs are the following: swimming, hiking, biking, roller skating, or skydiving.  All of these single and combination word examples are tied to an activity that any living thing can do.  For example, a dog can bike ride with a human w",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.424975",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a8843fd1-695b-4505-95ce-c3ba4658aa46",
+    "content": "Q: Extract the owner of Lamborghini and a listing of the different types of Huracan cars that Lamborghini has produced for its Motorsport division.\nA: Vokswagen Group owns Lamborghini through its subsidiary, Audi.\n\nLamborghini has produced the following Huracan motorsport models:\n- Huracán LP 620-2 Super Trofeo EVO\n- Huracán LP 620-2 Super Trofeo EVO2\n- Huracán Super Trofeo GT2\n- Huracán GT3\n- Huracán GT3 Evo\n- Huracán GT3 Evo 2",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425003",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "e4cb3706-ac8e-4613-80d9-2ec51b80fff4",
+    "content": "Q: Which of the following is useful for transportation: a glass of wine, a lamp, a train, an iced cube tray, a plane, a bicycle, an apple and a scooter.\nA: The useful objects for transportation in the list are train, plane, bicyle and scooter.",
+    "category": "classification",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425022",
+    "metadata": {
+      "category": "classification"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "ce981a11-88fc-4c24-904e-b7df4236a148",
+    "content": "Q: Identify which instrument is string or woodwind: Panduri, Zurna\nA: Zurna is woodwind, Panduri is string.",
+    "category": "classification",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425041",
+    "metadata": {
+      "category": "classification"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "bff8deb8-b36a-411f-88d7-b1b7c7bc6372",
+    "content": "Q: What is the average lifespan of a Golden Retriever?\nA: The average lifespan of a Golden Retriever is 12 to 13 years.",
+    "category": "information_extraction",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425058",
+    "metadata": {
+      "category": "information_extraction"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "71ce60c4-5bb8-40e8-89b4-1b7fb1c39dd5",
+    "content": "Q: Who became king of Holland in 1806?\nA: William I of the Netherlands became king of Holland in 1806.",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425075",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "658227b1-4ccd-4594-b581-51d97b26a404",
+    "content": "Q: What is best Playstation or Xbox\nA: Playstation and Xbox are two competing game consoles, where which is \"best\" will depend on the preferences of the gamer.  From a graphics and performance perspective they are comparable, with Sony's Playstation technically leading, though most gamers would be unlikely to notice a significant differe",
+    "category": "general_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425100",
+    "metadata": {
+      "category": "general_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "b6e89324-433c-48e0-8437-f26486dea34b",
+    "content": "Q: Who played Billy the Kid in The Left Handed Gun\nA: Paul Newman",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425118",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "38a7e21e-b81b-47ff-904c-ccd1920f587f",
+    "content": "Q: why did Syd Barrett left the Pink Floyd?\nA: Syd Barrett was one of the main members of the Pink Floyd. He has used drugs a lot and after a while he was not able to perform with the team. Even though the band gave him multiple chances, he could not keep up with the band. In the end, they had to ask him to leave the band. The main reason that h",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425135",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "86450f95-ac17-474b-af86-bd01254cc6ca",
+    "content": "Q: what is REST API\nA: REST API is an architectural style for building network APIs. In practice, most REST APIs are using JSON over HTTP. REST APIs have several properties that make them very popular.\n\nHTTP is the foundational and the most popular network protocol across the internet. By using HTTP, REST APIs can fully u",
+    "category": "general_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425152",
+    "metadata": {
+      "category": "general_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "65de6e96-cb67-4d00-947c-2c46c1da9344",
+    "content": "Q: What is underwriting?\nA: Underwriting (UW) services are provided by some large financial institutions, such as banks, insurance companies and investment houses, whereby they guarantee payment in case of damage or financial loss and accept the financial risk for liability arising from such guarantee. An underwriting arrangem",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425170",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a4ef5831-9949-4124-989d-be947a5ae6bb",
+    "content": "Q: Give me a list of some characteristics of a good coffee shop?\nA: Some characteristics of good coffee shops include:\n- Very good coffee, either freshly roasted locally or acquired from a quality roaster\n- High end coffee grinders, brewing machines, and a high quality espresso machine and well-trained baristas\n- Different coffee roast options (i.e. medium roast, da",
+    "category": "brainstorming",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425189",
+    "metadata": {
+      "category": "brainstorming"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "6d0bdf70-4185-4981-935e-a8fe7c8bd264",
+    "content": "Q: Please summarize what Linkedin does.\nA: Linkedin is a social platform that business professionals create profiles on and network with other business professionals. It is used to network, career development, and for jobseekers to find jobs. Linkedin has over 900 million users from over 200 countries. Linkedin can be used to post resumes/CV",
+    "category": "summarization",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425210",
+    "metadata": {
+      "category": "summarization"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "7a464e9c-3c6c-4e62-b60f-27969d32446e",
+    "content": "Q: Who saved Andromeda from the sea monster\nA: Perseus",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425227",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "ec713e3b-f84c-493e-988d-9811b2a3314d",
+    "content": "Q: How can I contribute to Spark?\nA: Yes, Spark is an open source project and anyone can contribute to it.",
+    "category": "general_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425246",
+    "metadata": {
+      "category": "general_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "a1b010bf-56a3-467e-879d-6cfbe7c6876c",
+    "content": "Q: Who are ''The Lumières\" ?\nA: The Lumières (literally in English: The Lights) was a cultural, philosophical, literary and intellectual movement beginning in the second half of the 17th century, originating in western Europe and spreading throughout the rest of Europe. It included philosophers such as Baruch Spinoza, David Hume, ",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425266",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "17d92a59-6bb9-4a8c-8af2-4b7cd457ac7a",
+    "content": "Q: Using examples taken from the text give me a summary of the main arguments in favour of slavery reparations in the United States and the anticipated cost of enacting such reparations\nA: In spite of progressive changes since the end of enforcement of Jim Crow and the successes of the fight for civil rights there are still inherent racial inequalities in the USA which negatively affect the civil, political, economic, social and cultural rights of African Americans today.  A United Na",
+    "category": "summarization",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425293",
+    "metadata": {
+      "category": "summarization"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "f034f15d-a450-4780-9552-86548e0bac36",
+    "content": "Q: When was the wheel invented?\nA: No one knows when the wheel was first made. Archaeological evidence seems to show that the wheel was first used to make pottery in Mesopotamia about 7,000 years ago, during the Neolithic period. Later, it was used to make chariots. Chariot wheels have been found in Sumer as early as 3000 BC. The whe",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425310",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "87fe49a6-d555-4ba4-aadd-fbb821328169",
+    "content": "Q: write a scene between two actors discussing movie Inception\nA: Actress 1: \"Oh my god, have you seen Inception?\"\n\nActor 2: \"Yes! That movie blew my mind. What did you think of it?\"\n\nActress 1: \"Honestly, I was so confused for most of it. But it was so interesting, I couldn't look away. I had to know what was going on.\"\n\nActor 2: \"That's exactly how I felt. It's ",
+    "category": "creative_writing",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425328",
+    "metadata": {
+      "category": "creative_writing"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "132fb60b-5617-498a-86e5-1d48d9a88041",
+    "content": "Q: Did dinosaurs have lips?\nA: Recent research suggests that the popular perception that dinosaurs had exposed teeth may be incorrect, and the current hypothesis is that the Tyrannosaurus rex did indeed have lips. A 2023 study by Dr Mark Witton of the University of Portsmouth said popular depictions of dinosaurs in movies like Ju",
+    "category": "general_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425347",
+    "metadata": {
+      "category": "general_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "80b903cb-f304-4be4-9987-adafa2859476",
+    "content": "Q: Are lilies safe for cats?\nA: No, lilies are toxic to cats if consumed and should not be kept in a household with cats",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425364",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "72a71668-77ab-4419-a2ee-6ab12ca1cf91",
+    "content": "Q: What is Sunshine Recession?\nA: It is known as the deepest period in which sunspots are not virtually visible. Deepest period is related to sun cycle's process called solar minimum",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425380",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "24015d59-5298-4c79-bef2-73f20f7154ad",
+    "content": "Q: What is the currency in use in the Netherlands?\nA: The currency in use in the Netherlands is the euro.",
+    "category": "open_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425397",
+    "metadata": {
+      "category": "open_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "765c0851-27b6-40ce-8a0f-3693a7385d34",
+    "content": "Q: What is the best tv series in the world\nA: Dexter- The Dexter is so exciting to watch that it should be the best TV series in the world",
+    "category": "brainstorming",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425414",
+    "metadata": {
+      "category": "brainstorming"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "8e4ec0bb-2975-4173-9d38-9254301957f7",
+    "content": "Q: Who was the first to record the Needles and Pins song?\nA: The first artist to record Needles and Pins song was DeShannon.",
+    "category": "closed_qa",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425432",
+    "metadata": {
+      "category": "closed_qa"
+    },
+    "is_persistent": true,
+    "user_approved": true
+  },
+  {
+    "id": "9e5f7aa8-3491-4eb7-bf79-46873fea99d2",
+    "content": "Q: Provide me a list of the different types of harnesses used in rock climbing\nA: Minimalistic Harness: has gear loops that are sewn on\nLightweight Harness: has leg loops that are removable\nBig Wall Harness: uses padded waist belts and leg loops\nFull Body Harness: mostly for children with small pelvises, or for scenarios that risk inversion\nChest Harness: to be used with a sit ha",
+    "category": "summarization",
+    "importance": "HIGH",
+    "provenance": "HuggingFace/databricks/databricks-dolly-15k",
+    "timestamp": "2026-11-07T17:45:52.425450",
+    "metadata": {
+      "category": "summarization"
+    },
+    "is_persistent": true,
+    "user_approved": true
   }
 ]

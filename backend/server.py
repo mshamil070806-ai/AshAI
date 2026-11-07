@@ -161,3 +161,4 @@ def create_app(config) -> FastAPI:
             return json.load(f)
 
     return app
+
