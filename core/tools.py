@@ -209,34 +209,54 @@ def search_long_term_memory(query: str, top_k: int = 3) -> list[dict]:
     return [item for _, item in scored[:top_k]]
 
 async def execute_smart_tools(user_message: str) -> dict:
-    """Intelligently matches user prompt with the best live tool or knowledge base."""
+    """Intelligently matches user prompt (English, Malayalam, or Manglish) with the best live tool or knowledge base."""
     msg = user_message.lower().strip()
 
-    # 1. Weather Intent
-    if any(k in msg for k in ["weather", "temperature", "climate", "rain", "mazha", "choodu"]):
+    # 1. Weather Intent (English, Manglish, Malayalam)
+    weather_keywords = ["weather", "temperature", "climate", "rain", "mazha", "choodu", "കാലാവസ്ഥ", "മഴ", "ചൂട്", "തണുപ്പ്"]
+    if any(k in msg for k in weather_keywords):
         loc_match = re.search(r"(?:in|of|at|for)\s+([a-zA-Z\s]+)", msg)
-        loc = loc_match.group(1).strip() if loc_match else "Kochi"
+        loc = loc_match.group(1).strip() if loc_match else ""
+        # Malayalam locations
+        if not loc:
+            if "കൊച്ചി" in msg or "kochi" in msg:
+                loc = "Kochi"
+            elif "തിരുവനന്തപുരം" in msg or "trivandrum" in msg:
+                loc = "Trivandrum"
+            elif "കോഴിക്കോട്" in msg or "calicut" in msg:
+                loc = "Kozhikode"
+            elif "ഡൽഹി" in msg or "delhi" in msg:
+                loc = "Delhi"
+            elif "ദുബായ്" in msg or "dubai" in msg:
+                loc = "Dubai"
+            else:
+                loc = "Kochi"
+
         loc = re.sub(r"[?!.]", "", loc).strip() or "Kochi"
         weather_res = await fetch_weather(loc)
         return {"tool": "Live Weather API", "content": weather_res}
 
     # 2. Crypto Intent
-    if any(k in msg for k in ["crypto", "bitcoin", "btc", "ethereum", "eth", "solana", "sol", "doge", "coin price"]):
+    crypto_keywords = ["crypto", "bitcoin", "btc", "ethereum", "eth", "solana", "sol", "doge", "coin price", "ക്രിപ്റ്റോ", "ബിറ്റ്കോയിൻ"]
+    if any(k in msg for k in crypto_keywords):
         crypto_res = await fetch_crypto_prices()
         return {"tool": "Binance Crypto Public API", "content": crypto_res}
 
     # 3. Currency / Forex Exchange Intent
-    if any(k in msg for k in ["dollar", "rupee", "currency", "exchange rate", "inr", "rate of usd", "money conversion"]):
+    forex_keywords = ["dollar", "rupee", "currency", "exchange rate", "inr", "rate of usd", "money conversion", "ഡോളർ", "രൂപ", "വിനിമയ നിരക്ക്"]
+    if any(k in msg for k in forex_keywords):
         forex_res = await fetch_exchange_rates()
         return {"tool": "Open Exchange Rates Public API", "content": forex_res}
 
     # 4. Advice / Quote Intent
-    if any(k in msg for k in ["quote", "advice", "inspiration", "motivation", "thought"]):
+    advice_keywords = ["quote", "advice", "inspiration", "motivation", "thought", "ചിന്ത", "ഉപദേശം", "സുഭാഷിതം"]
+    if any(k in msg for k in advice_keywords):
         adv_res = await fetch_random_advice()
         return {"tool": "Advice Slip Public API", "content": adv_res}
 
-    # 5. Public API Directory Intent (when user asks for APIs)
-    if any(k in msg for k in ["find api", "list api", "public api", "free api", "apis for", "api list"]):
+    # 5. Public API Directory Intent
+    api_keywords = ["find api", "list api", "public api", "free api", "apis for", "api list", "പബ്ലിക് എപിഐ"]
+    if any(k in msg for k in api_keywords):
         apis = search_public_apis_catalog(msg, max_results=4)
         if apis:
             lines = ["🌐 Free APIs from public-apis directory:"]
@@ -245,8 +265,9 @@ async def execute_smart_tools(user_message: str) -> dict:
             return {"tool": "Public APIs Directory (2,400+ APIs)", "content": "\n".join(lines)}
 
     # 6. Wikipedia Knowledge Intent
-    if any(k in msg for k in ["who is", "what is", "tell me about", "explain", "history of", "wiki"]):
-        sub = re.sub(r"(?:who is|what is|tell me about|explain|history of|wiki)\s+", "", msg).strip()
+    wiki_triggers = ["who is", "what is", "tell me about", "explain", "history of", "wiki", "ആരാണ്", "എന്താണ്"]
+    if any(k in msg for k in wiki_triggers):
+        sub = re.sub(r"(?:who is|what is|tell me about|explain|history of|wiki|ആരാണ്|എന്താണ്)\s+", "", msg).strip()
         sub = re.sub(r"[?!.]", "", sub).strip()
         if len(sub) > 2:
             wiki_res = await fetch_wikipedia(sub)

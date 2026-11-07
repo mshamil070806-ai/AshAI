@@ -129,3 +129,4 @@ def fetch_and_index_public_apis():
 
 if __name__ == "__main__":
     fetch_and_index_public_apis()
+

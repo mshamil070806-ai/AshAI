@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ashai": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\ahsas\\Documents\\AshAI\\mcp_server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
